@@ -1,0 +1,15 @@
+@use "styles/_colors";
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: colors.$blue-bell;
+  width: 100vw;
+  height: 100vh;
+
+
+  .motivation {
+    margin: 0 auto;
+  }
+}
+

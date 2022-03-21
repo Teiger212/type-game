@@ -1,0 +1,13 @@
+.game-statistics {
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+
+    .stat {
+        font-weight: 600;
+
+        &:first-child {
+            margin-right: 1em;
+        }
+    }
+}

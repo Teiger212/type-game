@@ -1,0 +1,14 @@
+@use '../../styles/colors';
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: colors.$lavender-blue;
+    height: 12vh;
+    padding: 0.5em 1.5em;
+
+    h1 {
+        font-weight: 600;
+    }
+}

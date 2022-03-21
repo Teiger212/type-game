@@ -1,0 +1,18 @@
+@use '../../styles/_colors.scss';
+
+.input-bar {
+    margin: 2em auto;
+
+    #user-input {
+        border: 0;
+        appearance: none;
+        outline: none;
+        background-color: colors.$magnolia;
+        color: colors.$raisin-black;
+        padding: 0.75em;
+        width: 60vw;
+        border-radius: 10px;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+}

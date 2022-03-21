@@ -1,0 +1,20 @@
+@use '../../../styles/colors';
+
+.button {
+    font: inherit;
+    cursor: pointer;
+    border: 1px solid colors.$blue-bell;
+    background: colors.$lavender-blue;
+    color: colors.$raisin-black;
+    font-weight: 600;
+    padding: 0.25rem 1rem;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        border: 1px solid colors.$raisin-black;
+        background: colors.$magnolia;
+    }
+}
